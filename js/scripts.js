@@ -13,25 +13,24 @@ function beepboopGenerator(userInput) {
 
 let results = [];
 
-  for (let i = 1; i <= userInput; i++) {
+  for (let i = 0; i <= userInput; i++) {
 
     if (i.toString().match(/3/)) {
 
       results.push(" I'm sorry Dave. I'm afraid I can't do that.")
     }
-    else if (i.toString().match(/1/)) {
-
-      results.push(" Beep!")
-    }
     else if (i.toString().match(/2/)) {
 
       results.push(" Boop!")
+    }
+    else if (i.toString().match(/1/)) {
+
+      results.push(" Beep!")
     }
     else {
       results.push(i);
     }
   }
-    return results;
-
-  }
+  return results;
+}
 });
