@@ -17,18 +17,20 @@ let results = [];
 
     if (i.toString().match(/3/)) {
 
-      results.push(" I'm sorry Dave. I'm afraid I can't do that. ")
+      results.push(" I'm sorry Dave. I'm afraid I can't do that.")
     }
     else if (i.toString().match(/1/)) {
 
-      results.push(" Beep! ")
+      results.push(" Beep!")
     }
     else if (i.toString().match(/2/)) {
 
-      results.push(" Boop! ")
+      results.push(" Boop!")
     }
-    
+    else {
+      results.push(i);
     }
+  }
     return results;
 
   }
