@@ -12,6 +12,7 @@
 
 ##### Clone this repository at https://github.com/PapaZeus/BeepBoopProject.git
 ##### Open master branch to look at code or test branch to edit code.
+##### You may also view the project from the environment tab via the gh-pages branch.
 
 ## **Specs**
 
