@@ -1,0 +1,18 @@
+#title {
+  text-align: center;
+  background-image: url("../img/earth.gif");
+  color: white;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px black, 0px 0px 1px black, 0px 0px 0px black;
+}
+
+#center {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 3px black, 0px 0px 1px black, 0px 0px 0px black;
+}
+
+#text-shadow {
+  text-shadow: 2px 2px 3px black, 0px 0px 1px black, 0px 0px 0px black;
+  color: white;
+}
